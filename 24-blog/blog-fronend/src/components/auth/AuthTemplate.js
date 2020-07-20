@@ -4,9 +4,10 @@ import palette from '../../lib/styles/palette';
 import { Link } from 'react-router-dom';
 
 /**
- * 회원가입/로그인 페이지의 레이아웃 담당 컴포넌트
+ * 회원가입 / 로그인 페이지의 레이아웃을 담당하는 컴포넌트입니다.
  */
 
+/* 화면 전체를 채움 */
 const AuthTemplateBlock = styled.div`
   position: absolute;
   left: 0;
@@ -21,6 +22,7 @@ const AuthTemplateBlock = styled.div`
   align-items: center;
 `;
 
+/* 흰색 박스 */
 const WhiteBox = styled.div`
   .logo-area {
     display: block;

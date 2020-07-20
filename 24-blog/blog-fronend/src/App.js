@@ -6,7 +6,7 @@ import RegisterPage from './pages/RegisterPage';
 import WritePage from './pages/WritePage';
 import PostPage from './pages/PostPage';
 
-function App() {
+const App = () => {
   return (
     <>
       <Route component={PostListPage} path={['/@:username', '/']} exact />
@@ -16,6 +16,5 @@ function App() {
       <Route component={PostPage} path="/@:username/:postId" />
     </>
   );
-}
-
+};
 export default App;
